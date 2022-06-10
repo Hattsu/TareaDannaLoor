@@ -11,8 +11,8 @@ namespace Tarea_herenciaPOO
             this.Nombre = nombre;
             this.Color = color;
         }
-
-        public void Imprimir_datos()
+        //Metodo para imprimir datos
+        public void Mostrar_datos()
         {
             Console.WriteLine("................");
             Console.WriteLine("Nombre del ave: "+Nombre);
