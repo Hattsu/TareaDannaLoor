@@ -1,5 +1,5 @@
 using System;
-namespace Tarea
+namespace Tarea_herenciaPOO
 {
     class Aves
     {
@@ -14,10 +14,10 @@ namespace Tarea
 
         public void Imprimir_datos()
         {
-            Console.WriteLine("------------");
-            Console.WriteLine("Nombre: "+Nombre);
-            Console.WriteLine("Color: "+Color);
-            Console.WriteLine("------------");
+            Console.WriteLine("................");
+            Console.WriteLine("Nombre del ave: "+Nombre);
+            Console.WriteLine("Color del ave: "+Color);
+            Console.WriteLine("................");
         }
 
     }
