@@ -1,5 +1,5 @@
 using System;
-namespace Tarea
+namespace Tarea_herenciaPOO
 {
     class Condor:Aves, IVolador
     {
