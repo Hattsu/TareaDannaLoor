@@ -13,7 +13,7 @@ namespace Tarea
             Console.WriteLine("Vuela");
         }
         //Metodo heredado de la clase padre
-        public void Imprimir_datos()
+        public void Mostrar_datos()
         {
             Console.WriteLine("................");
             Console.WriteLine("Nombre del ave: "+Nombre);
