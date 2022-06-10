@@ -1,23 +1,24 @@
 using System;
-namespace Tarea
+namespace Tarea_herenciaPOO
 {
     class Pinguino:Aves, INadador
     {
         public Pinguino(string nombre, string color):base(nombre, color)
         {
-            //atributos heredados
+            //atributos heredados de la clase padre
         }
-        //Polimorfismo por interface
+        //Uso del interface
         public void Nadar()
         {
             Console.WriteLine("Nada");
         }
-        public void Imprimir_datos()
+        //Imprimir datos con el metodo heredado
+        public void Mostrar_datos()
         {
-            Console.WriteLine("------------");
-            Console.WriteLine("Nombre: "+Nombre);
-            Console.WriteLine("Color: "+Color);
-            Console.WriteLine("------------");
+            Console.WriteLine("................");
+            Console.WriteLine("Nombre del ave: "+Nombre);
+            Console.WriteLine("Color del ave: "+Color);
+            Console.WriteLine("................");
         }
     }
 }
