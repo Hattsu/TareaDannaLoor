@@ -1,5 +1,5 @@
 using System;
-namespace Tarea
+namespace Tarea_herenciaPOO
 {
     interface INadador
     {
