@@ -5,19 +5,20 @@ namespace Tarea
     {
         public Condor(string nombre, string color):base(nombre, color)
         {
-            //atributos heredados
+            //atributos  que van a ser heredados
         }
-        //Polimorfismo por interface
+        //uso del interface
         public void Volar()
         {
             Console.WriteLine("Vuela");
         }
+        //Metodo heredado de la clase padre
         public void Imprimir_datos()
         {
-            Console.WriteLine("------------");
-            Console.WriteLine("Nombre: "+Nombre);
-            Console.WriteLine("Color: "+Color);
-            Console.WriteLine("------------");
+            Console.WriteLine("................");
+            Console.WriteLine("Nombre del ave: "+Nombre);
+            Console.WriteLine("Color del ave: "+Color);
+            Console.WriteLine("................");
         }
     }
 }
