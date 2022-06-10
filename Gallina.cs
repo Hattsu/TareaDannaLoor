@@ -1,23 +1,25 @@
 using System;
-namespace Tarea
+namespace Tarea_herenciaPOO
 {
     class Gallina:Aves, IVolador
     {
         public Gallina(string nombre, string color):base(nombre, color)
         {
-            //atributos heredados
+            //atributos heredados de la clase padre
         }
-        //Polimorfismo por interface
+        //uso del interface 
         public void Volar()
         {
             Console.WriteLine("Vuela");
         }
-        public void Imprimir_datos()
+        
+        // Imprimir los datos
+        public void Mostrar_datos()
         {
-            Console.WriteLine("------------");
-            Console.WriteLine("Nombre: "+Nombre);
-            Console.WriteLine("Color: "+Color);
-            Console.WriteLine("------------");
+            Console.WriteLine("................");
+            Console.WriteLine("Nombre del ave: "+Nombre);
+            Console.WriteLine("Color del ave: "+Color);
+            Console.WriteLine("................");
         }
     }
 }
